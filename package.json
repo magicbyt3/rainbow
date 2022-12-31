@@ -1,0 +1,31 @@
+{
+  "name": "@p13rnd/rnd-rainbow",
+  "version": "0.0.2",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "vite package",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p13rnd/rainbow.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
+    "svelte-preprocess": "^4.10.1",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0",
+    "svelte-canvas": "^0.7.1",
+    "vite": "^3.2.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte2tsx": "^0.4.10"
+  }
+}
